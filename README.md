@@ -4,7 +4,7 @@
 * Selenium解決js渲染網頁部分, BeautifulSoup解析Html, 抓取整個網站的目錄大綱 
 * MySQL資料庫存放數據, 設定狀態欄位, 避免重複爬取資料
 * 從資料庫抓取網址並requests下載圖片到指定位址的資料夾
-* Multi-threading Pool 實行多線程, 加快下載速度
+* Multi-threading Pool 實行多執行緒, 加快下載速度
 * APSchedule 設定每日排程, 自動爬取並更新資料庫
 * Docker打包爬蟲程式, 能直接在linux tmux上開啟多視窗執行爬蟲腳本並監測運行情況   
 
